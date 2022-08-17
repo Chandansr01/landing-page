@@ -1,0 +1,281 @@
+@media only screen and (max-width: 915px) {
+   nav{
+    padding: 1rem 2rem;
+    font-size: 0.8em;
+
+   }
+
+}
+
+
+@media only screen and (max-width: 915px) and (min-width: 691px) {
+    nav{
+     padding: 1rem 2rem;
+     font-size: 0.8em;
+ 
+    }
+ 
+ }
+
+
+ @media screen and (max-width:760px){
+   body{
+       overflow-x: hidden;
+   }
+   .navlinks{
+       position: absolute;
+       right: 0;
+       height: 92vh;
+       top: 8vh;
+       background-color: rgb(27, 0, 39);
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       width: 40%;
+       transform: translateX(100%);
+       transition: 4ms ease-in;
+       z-index: 3;
+   }
+   .links ul li {
+       opacity: 0;
+       margin: 40px 20px;
+   }
+
+
+   .burger{
+       display: block;
+       cursor: pointer;
+   }
+
+}
+
+/* MEDIA QUERY ENDS...................... */
+
+.nav-active{
+   transform: translateX(0%);
+   transition: 0.8s all ease;
+}
+
+@keyframes navlinkFade{
+  from{
+      opacity: 0;
+      transform: translatex(50px);
+  }
+  to{
+      opacity: 1;
+      transform: translateX(0px);
+  }
+}
+
+.toggle .line1{
+  transform: rotate(-45deg) translate(-3px,6px);
+}
+.toggle .line2{
+  opacity: 0;
+}
+.toggle .line3{
+  transform: rotate(+45deg) translate(-2px,-6px);
+  
+}
+
+
+
+@media screen and (max-width:1317px){
+   .box-1 h3{
+      font-size: 3rem;
+   }
+   .container{
+      width: 50%;
+   }
+
+   .avatar-box{
+      position: absolute;
+      /* border: 2px solid red; */
+      height: 90vh;
+      width: 29rem;
+      /* right: 50%; */
+      top: 8rem;
+  }
+
+  .box-3{
+   width: 80%;
+  }
+  .avatar-box img{
+   height: 90%;
+   width: 100%;
+   position: absolute;
+   z-index: 5;
+   left: 20%;
+}
+.circle2{
+   position: absolute;
+   /* border: 1px solid blue; */
+   height: 95%;
+   width: 95%;
+   top: 0;
+}
+.circle2 img{
+   position: relative;
+   width: 70%;
+   top: 15%;
+   left: 37%;
+   height: 70%;
+}
+}
+@media screen and (max-width:1024px){
+   .box-1 h3{
+      font-size: 2rem;
+   }
+   .container{
+      width: 50%;
+   }
+   body{
+      height: 100vh;
+   }
+   .avatar-box{
+      position: absolute;
+      /* border: 2px solid red; */
+      height: 90vh;
+      width: 20rem;
+      right: 2rem;
+      top: 8rem;
+  }
+
+  .avatar-box img{
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   z-index: 5;
+   left: 20%;
+
+}
+
+.circle1{
+   position: relative;
+   /* border: 1px solid red; */
+   height: 280px;
+   top: 12%;
+   left: 0%;
+   width: 280px;
+   z-index: 1;
+}
+.circle1 img{
+   width: 100%;
+   height: 100%;
+}
+
+.circle2{
+   position: absolute;
+   /* border: 1px solid blue; */
+   height: 95%;
+   width: 95%;
+   top: 0;
+}
+.circle2 img{
+   position: relative;
+   width: 80%;
+   top: 12%;
+   left: 33.5%;
+   height: 80%;
+}
+}
+
+
+@media screen and (max-width:1023px){
+   .box-1 h3{
+      font-size: 2.5rem;
+      text-align: center;
+   }
+   .container{
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      left: 10%;
+      top: 30%;
+   }
+   .box-2 h4{
+      font-family: 'Poppins', sans-serif;
+      font-weight: 400;
+      color: #F2F2F2;
+      margin-top: 1em;
+      font-size: 0.7rem;
+      
+  }
+
+  .box-3{
+   width: 70%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+   body{
+      height: 100vh;
+   }
+   .avatar-box{
+      position: absolute;
+      /* border: 2px solid red; */
+      height: 90vh;
+      width: 20rem;
+      /* display: none; */
+      opacity: 0.1;
+      right: 28%;
+      top: 8rem;
+  }
+
+  .avatar-box img{
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   z-index: 5;
+   left: 20%;
+
+}
+
+.circle1{
+   position: relative;
+   /* border: 1px solid red; */
+   height: 280px;
+   top: 12%;
+   left: 0%;
+   width: 280px;
+   z-index: 1;
+}
+.circle1 img{
+   width: 100%;
+   height: 100%;
+}
+
+.circle2{
+   position: absolute;
+   /* border: 1px solid blue; */
+   height: 95%;
+   width: 95%;
+   top: 0;
+}
+.circle2 img{
+   position: relative;
+   width: 80%;
+   top: 12%;
+   left: 33.5%;
+   height: 80%;
+}
+}
+
+
+@media screen and (max-width:600px){
+   .box-3{
+      width: 100%;
+   }
+   .box-5{
+      font-size: 0.9em;
+   }
+}
